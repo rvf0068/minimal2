@@ -1,3 +1,5 @@
+"""Setup file for a minimal package"""
+
 from setuptools import setup
 
 setup(name='minimal',
