@@ -10,10 +10,11 @@ setup(name='minimal',
       author_email='yomero@gmail.com',
       license='MIT',
       packages=['minimal'],
+      include_package_data = True,
+      package_data = {
+      '' : ['*.png'],
+      '' : ['*.txt'],
+      }
       zip_safe=False)
 
-include_package_data = True,
-package_data = {
-'' : ['*.png'],
-'' : ['*.txt'],
-}
+
