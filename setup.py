@@ -11,6 +11,10 @@ setup(name='minimal',
       license='MIT',
       packages=['minimal'],
       include_package_data = True,
+      package_data = {
+          '' : ['*.png'],
+          '' : ['*.yml'],
+      },
       zip_safe=False)
 
 
