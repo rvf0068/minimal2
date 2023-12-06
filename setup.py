@@ -11,3 +11,9 @@ setup(name='minimal',
       license='MIT',
       packages=['minimal'],
       zip_safe=False)
+
+include_package_data = True,
+package_data = {
+'' : ['*.png'],
+'' : ['*.txt'],
+}
