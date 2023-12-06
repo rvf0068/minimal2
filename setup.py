@@ -12,7 +12,7 @@ setup(name='minimal',
       packages=['minimal'],
       include_package_data = True,
       package_data = {
-          '' : ['*.png'],
+          '' : ['*.jpg'],
           '' : ['*.yml'],
       },
       zip_safe=False)
