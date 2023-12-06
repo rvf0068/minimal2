@@ -12,9 +12,6 @@ setup(name='minimal',
       packages=['minimal'],
       include_package_data = True,
       package_data = {
-          '' : ['*.jpg'],
-          '' : ['*.yml'],
+          '' : ['*.jpg']
       },
       zip_safe=False)
-
-
